@@ -5,7 +5,7 @@
 #include <conio.h>
 using namespace std;
 
-class Choice
+class Login_And_Register
 {
     string Username;
     string Password;
@@ -93,7 +93,7 @@ public:
         return false;
     }
 };
-class Yourportal : public Choice
+class Yourportal : public Login_And_Register
 {
 
 public:
